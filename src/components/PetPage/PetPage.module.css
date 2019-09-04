@@ -1,0 +1,35 @@
+.horizontalDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 25px;
+}
+
+.description {
+  font-size: 25px;
+}
+
+.image {
+  width: 40%;
+  height: auto;
+}
+
+.wrapper {
+  padding: 2% 5%;
+}
+
+.shortInfo {
+  padding: 0 2%;
+}
+
+.specifications {
+  font-weight: bold;
+}
+
+.button {
+  font-size: 25px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 4px 25px;
+}

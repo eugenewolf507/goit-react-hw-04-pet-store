@@ -1,0 +1,37 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  border: solid 1px #000;
+  padding: 4%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.petCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  font-size: 25px;
+}
+
+.wrapper {
+  padding: 2% 5%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
